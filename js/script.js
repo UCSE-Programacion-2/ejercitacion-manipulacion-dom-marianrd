@@ -12,7 +12,9 @@ const titulo = document.querySelector(".titulo-feo")
 titulo.removeAttribute("class");
 
 // 4- Chequear si el link a youtube posee o no el atributo href
-console.log(tarjeta.querySelector("a").hasAttribute("href"));
+const linkYoutube = document.getElementById("link_youtube");
+console.log(linkYoutube.hasAttribute("href"));
 
 // 5- Obtener el href del link a wikipedia y mostrarlo por consola
-console.log(tarjeta.querySelector("#link_wikipedia").getAttribute("href"));
+const linkWikipedia = document.getElementById("link_wikipedia");
+console.log(linkWikipedia.getAttribute("href"));
