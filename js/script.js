@@ -15,3 +15,4 @@ titulo.removeAttribute("class");
 console.log(tarjeta.querySelector("a").hasAttribute("href"));
 
 // 5- Obtener el href del link a wikipedia y mostrarlo por consola
+console.log(tarjeta.querySelector("#link_wikipedia").getAttribute("href"));
